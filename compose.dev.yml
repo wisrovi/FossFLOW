@@ -1,6 +1,7 @@
 services:
   fossflow:
     build: .
+    image: wisrovi/fossflow:v1.0 
     ports:
       - "3000:80"
       - "3001:3001"
