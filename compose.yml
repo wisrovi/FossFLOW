@@ -1,9 +1,9 @@
 services:
   fossflow:
-    image: stnsmith/fossflow:latest
+    image: wisrovi/fossflow:v1.0 
     pull_policy: always
     ports:
-      - 80:80
+      - 15380:80
     environment:
       - NODE_ENV=production
       - ENABLE_SERVER_STORAGE=${ENABLE_SERVER_STORAGE:-true}
